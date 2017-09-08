@@ -1,12 +1,3 @@
-# angulargulp
+# react-simple-o2o-demo
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
-
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+搭建 webpack + React 开发环境，详情参考[这里](./docs/README.md)

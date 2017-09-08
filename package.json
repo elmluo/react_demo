@@ -1,33 +1,42 @@
 {
-  "name": "angulargulp",
-  "private": true,
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-connect": "^2.2.0",
-    "gulp-autoprefixer": "2.3.1",
-    "gulp-cache": "^0.2.10",
-    "rimraf": "^2.4.0",
-    "gulp-filter": "^2.0.2",
-    "gulp-imagemin": "^2.3.0",
-    "gulp-jshint": "^1.11.1",
-    "gulp-karma": "0.0.4",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-minify-css": "^1.2.0",
-    "gulp-rev": "^5.0.1",
-    "gulp-rev-replace": "^0.4.2",
-    "gulp-uglify": "^1.2.0",
-    "gulp-useref": "^3.0.0",
-    "gulp-util": "^3.0.6",
-    "gulp-watch": "^4.2.4",
-    "run-sequence": "^1.1.1",
-    "wiredep": "^2.2.2",
-    "lazypipe": "^0.2.4",
-    "gulp-ng-annotate": "^1.0.0",
-    "open": "0.0.5",
-    "jshint-stylish": "^1.0.0"
+  "name": "ract_demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=dev && webpack-dev-server --progress --colors",
+    "build": "rm -rf ./build && set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress --colors"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.24.0",
+    "eslint": "^3.4.0",
+    "eslint-loader": "^1.5.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "koa": "^1.2.2",
+    "koa-router": "^5.4.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "open-browser-webpack-plugin": "0.0.2",
+    "postcss-loader": "^0.11.0",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
   }
 }
