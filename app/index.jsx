@@ -1,17 +1,20 @@
 import React from 'react'
-import { render } from 'react-dom'
+import {render} from 'react-dom'
 
 import './static/css/common.less'
 
-class Hello extends React.Component {
-    render() {
-        return (
-            <p>hello world132456</p>
-        )
-    }
+import Demo from './demo'
+
+class Rout extends React.Component {
+  render() {
+    return (
+      <div>
+        <p>hello world132456</p>
+        <Demo></Demo>
+      </div>
+    )
+  }
 }
 
 render(
-    <Hello/>,
-    document.getElementById('root')
-)
+  <Rout/>, document.getElementById('root'))
