@@ -74,5 +74,3 @@ React 的终极优化是使用 [Immutable.js](https://facebook.github.io/immutab
 因此，这里建议优化还是要从设计着手，尽量把数据结构设计的扁平一些，这样既有助于优化系统性能，又减少了开发复杂度和开发成本。
 
 本教程中不会使用 Immutable.js
-
-

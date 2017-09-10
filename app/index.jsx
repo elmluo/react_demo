@@ -7,6 +7,7 @@ import Demo from './demo'
 
 // 性能检测
 import Perf from 'react-addons-perf'
+// console.log(__DEV__);
 if (__DEV__) {
 	window.Perf = Perf
 }

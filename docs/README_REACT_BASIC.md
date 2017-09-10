@@ -3,7 +3,7 @@
 
  React 的基础知识和基本用法。已经入门 React 基础的同事，可以简单看看这篇文档。可以看[官方文档](https://facebook.github.io/react/)
 
-另外，本项目的代码将全部使用 es6 语法，教程中我会介绍一些用到的 es6 语法，但是不会从头讲解了，推荐阅读[es6入门](http://es6.ruanyifeng.com/)
+另外，本项目的代码将全部使用 es6 语法，[es6入门](http://es6.ruanyifeng.com/)
 
 
 ## hello world
