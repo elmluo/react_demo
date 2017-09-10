@@ -32,7 +32,7 @@ class ReactBasic extends React.Component {
           <State></State>
 
           <hr/>
-          <i style={{backgroundColor: 'red'}}>声明周期</i>
+          <i style={{backgroundColor: 'red'}}>生命周期</i>
           <LifeHook></LifeHook>
         </div>
     )

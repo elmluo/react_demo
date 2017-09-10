@@ -5,6 +5,12 @@ import './static/css/common.less'
 
 import Demo from './demo'
 
+// 性能检测
+import Perf from 'react-addons-perf'
+if (__DEV__) {
+	window.Perf = Perf
+}
+
 class Rout extends React.Component {
   render() {
     return (
