@@ -1,7 +1,7 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-import Input from '../../components/input'
-import List from '../../components/list'
+import Input from '../components/input'
+import List from '../components/list'
 
 class TodoList extends React.Component {
 	constructor(props, context) {

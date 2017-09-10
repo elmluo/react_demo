@@ -15,8 +15,7 @@
  - ./app/containers/Detail 详情页
  - ./app/containers/NotFound 404
 
-注意App.jsx中的代码目前是这样子的，而且放在这里有点多余，但是在正式的项目开发中，这个文件很有用，而且这个文件和react-router也将会结合的很好。
-
+注意App.jsx中的代码目前如下，而且放在这里有点多余，但是在正式的项目开发中，这个文件很有用，而且这个文件和react-router也将会结合的很好。
 ```js
 class App extends React.Component {
     render() {
